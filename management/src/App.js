@@ -39,21 +39,21 @@ function App() {
       <div className="App">
         <Nav/>
         <Switch>
-          <Route path="/home">
+          <Route path="/" exact>
             <div className="container"><img src={main} className="main-image"/></div>
             <NewProduct/>
             <NewProduct/>
           </Route>
-          <Route path="/company">
+          <Route path="/company" exact>
             <h1>company</h1>
           </Route>
-          <Route path="/shopping">
+          <Route path="/shopping" exact>
             <h1>shopping</h1>
           </Route>
-          <Route path="/fitting">
+          <Route path="/fitting" exact>
             <h1>fitting</h1>
           </Route>
-          <Route path="/loginform">
+          <Route path="/loginform" exact>
             {(user.email != "")?(
               <div className="welcome">
                 <h2>Welcome, <span>{user.name}</span></h2>

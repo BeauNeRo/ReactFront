@@ -7,7 +7,7 @@ const Nav = () =>{
     return (
         <nav className="navbar navbar-expand-lg navbar-light">
             <div className="container">
-                <a className="navbar-brand" href="/home">
+                <a className="navbar-brand" href="/">
                 <img src={logoimage} className="logo-image"/></a>
                 <button className="navbar-toggler" type="button"
                     data-toggle="collapse" data-target="#navbarNav"
