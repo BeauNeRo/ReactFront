@@ -1,0 +1,37 @@
+/*nav.js 스타일*/
+.navbar{
+    background-color: #ffffdf;
+}
+.logo-image{
+    width: 150px;
+}
+
+.nav-link{
+    color:#000;
+}
+
+/*main_product.js 스타일*/
+.NewProduct{
+    margin:1rem 0;
+}
+
+.productTop{
+    display: inline-block;
+    width: 100%;
+}
+
+.productTop span{
+    float: left;
+    font-weight: 500;
+    color:#a2a28f;
+    font-size:1.2rem;
+}
+
+.productTop button{
+    float:right;
+    background-color: #ffffdf;
+    padding:.3rem .8rem;
+    font-weight: 800;
+    color:#a2a28f;
+    border-radius: 50px;
+}
